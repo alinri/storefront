@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'playground',
     "debug_toolbar",
+    'store',
+    'tags',
 
 ]
 
@@ -133,7 +135,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-mimetypes.add_type("application/javascript", ".js", True)
+# mimetypes.add_type("application/javascript", ".js", True)
 # DEBUG_TOOLBAR_CONFIG = {
 #     'INTERCEPT_REDIRECTS': False,
 # }
